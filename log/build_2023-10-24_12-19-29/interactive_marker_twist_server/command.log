@@ -1,0 +1,2 @@
+Invoking command in '/home/arpg/jackal_ws/build/interactive_marker_twist_server': /usr/bin/cmake /home/arpg/jackal_ws/tmp/jackal_ros2_humble/interactive_marker_twist_server -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/interactive_marker_twist_server
+Invoked command in '/home/arpg/jackal_ws/build/interactive_marker_twist_server' returned '1': /usr/bin/cmake /home/arpg/jackal_ws/tmp/jackal_ros2_humble/interactive_marker_twist_server -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/interactive_marker_twist_server

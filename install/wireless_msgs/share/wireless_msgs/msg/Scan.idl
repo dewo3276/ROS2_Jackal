@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wireless_msgs/msg/Scan.msg
+// generated code does not contain a copyright notice
+
+#include "wireless_msgs/msg/Network.idl"
+
+module wireless_msgs {
+  module msg {
+    struct Scan {
+      sequence<wireless_msgs::msg::Network> networks;
+    };
+  };
+};

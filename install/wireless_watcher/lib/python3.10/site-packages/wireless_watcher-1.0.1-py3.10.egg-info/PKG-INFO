@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wireless-watcher
+Version: 1.0.1
+Summary: A Python-based node which publishes connection information about a linux wireless interface.
+Home-page: UNKNOWN
+Maintainer: rkreinin
+Maintainer-email: rkreinin@clearpathrobotics.com
+License: BSD
+Platform: UNKNOWN
+
+UNKNOWN
+

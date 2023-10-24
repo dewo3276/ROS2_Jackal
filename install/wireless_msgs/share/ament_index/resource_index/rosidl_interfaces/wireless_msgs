@@ -1,0 +1,8 @@
+msg/Connection.idl
+msg/Connection.msg
+msg/Network.idl
+msg/Network.msg
+msg/Quality.idl
+msg/Quality.msg
+msg/Scan.idl
+msg/Scan.msg

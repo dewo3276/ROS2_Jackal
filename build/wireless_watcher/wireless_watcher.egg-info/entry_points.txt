@@ -1,0 +1,3 @@
+[console_scripts]
+wireless_watcher = wireless_watcher.wireless_watcher:main
+

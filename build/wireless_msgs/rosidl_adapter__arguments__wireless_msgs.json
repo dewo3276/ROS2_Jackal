@@ -1,0 +1,9 @@
+{
+  "package_name": "wireless_msgs",
+  "non_idl_tuples": [
+    "/home/arpg/jackal_ws/src/wireless/wireless_msgs:msg/Connection.msg",
+    "/home/arpg/jackal_ws/src/wireless/wireless_msgs:msg/Network.msg",
+    "/home/arpg/jackal_ws/src/wireless/wireless_msgs:msg/Quality.msg",
+    "/home/arpg/jackal_ws/src/wireless/wireless_msgs:msg/Scan.msg"
+  ]
+}

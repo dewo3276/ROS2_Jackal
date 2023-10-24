@@ -1,0 +1,7 @@
+/home/arpg/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/Drive.idl
+/home/arpg/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/DriveFeedback.idl
+/home/arpg/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/Feedback.idl
+/home/arpg/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/Power.idl
+/home/arpg/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/Status.idl
+/home/arpg/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:msg/StopStatus.idl
+/home/arpg/jackal_ws/build/jackal_msgs/rosidl_adapter/jackal_msgs:srv/SetDomainId.idl

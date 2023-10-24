@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wireless_msgs/msg/Network.msg
+// generated code does not contain a copyright notice
+
+
+module wireless_msgs {
+  module msg {
+    struct Network {
+      string type;
+
+      string essid;
+
+      string mac;
+
+      string mode;
+
+      string frequency;
+
+      boolean encryption;
+    };
+  };
+};

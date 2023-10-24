@@ -1,0 +1,6 @@
+source;share/wireless_watcher/hook/pythonpath.ps1
+source;share/wireless_watcher/hook/pythonpath.dsv
+source;share/wireless_watcher/hook/pythonpath.sh
+source;share/wireless_watcher/hook/ament_prefix_path.ps1
+source;share/wireless_watcher/hook/ament_prefix_path.dsv
+source;share/wireless_watcher/hook/ament_prefix_path.sh

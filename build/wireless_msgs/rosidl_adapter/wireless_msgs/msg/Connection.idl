@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wireless_msgs/msg/Connection.msg
+// generated code does not contain a copyright notice
+
+
+module wireless_msgs {
+  module msg {
+    struct Connection {
+      @verbatim (language="comment", text=
+        "Mb/s")
+      float bitrate;
+
+      @verbatim (language="comment", text=
+        "dBm")
+      int16 txpower;
+
+      @verbatim (language="comment", text=
+        "Fractional link quality number preserved in raw" "\n"
+        "field, resolved to decimal for link_quality field.")
+      string link_quality_raw;
+
+      float link_quality;
+
+      @verbatim (language="comment", text=
+        "dBm")
+      int16 signal_level;
+
+      @verbatim (language="comment", text=
+        "dBm")
+      int16 noise_level;
+
+      string essid;
+
+      string bssid;
+
+      double frequency;
+    };
+  };
+};
