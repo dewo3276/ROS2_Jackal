@@ -1,0 +1,24 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/config/nav2.yaml
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/config/slam.yaml
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/launch/localization.launch.py
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/launch/nav2.launch.py
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/launch/slam.launch.py
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/maps/office.pgm
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/maps/office.yaml
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/ament_index/resource_index/package_run_dependencies/jackal_navigation
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/ament_index/resource_index/parent_prefix_path/jackal_navigation
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/environment/path.sh
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/environment/path.dsv
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/local_setup.bash
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/local_setup.sh
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/local_setup.zsh
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/local_setup.dsv
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.dsv
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/ament_index/resource_index/packages/jackal_navigation
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/cmake/jackal_navigationConfig.cmake
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/cmake/jackal_navigationConfig-version.cmake
+-- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.xml

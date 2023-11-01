@@ -11,6 +11,7 @@
 /home/arpg/jackal_ws/install/jackal_robot/include/jackal_hardware/jackal_hardware_interface.hpp
 /home/arpg/jackal_ws/install/jackal_robot/include/jackal_hardware/jackal_hardware.hpp
 /home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/launch/accessories.launch.py
+/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/launch/.bringup.launch.py.swp
 /home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/launch/diagnostics.launch.py
 /home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/launch/bringup.launch.py
 /home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/config/diagnostics.yaml

@@ -1,0 +1,9 @@
+[0.070s] Invoking command in '/home/arpg/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_msgs -- -j32 -l32
+[0.091s] failed to create symbolic link '/home/arpg/jackal_ws/build/jackal_msgs/ament_cmake_python/jackal_msgs/jackal_msgs' because existing path cannot be removed: Is a directory
+[0.091s] [  1%] Built target jackal_msgs__cpp
+[0.091s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_jackal_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_jackal_msgs] Error 1
+[0.092s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_jackal_msgs.dir/all] Error 2
+[0.092s] gmake[1]: *** Waiting for unfinished jobs....
+[0.093s] [ 12%] Built target jackal_msgs__rosidl_generator_c
+[0.093s] gmake: *** [Makefile:146: all] Error 2
+[0.099s] Invoked command in '/home/arpg/jackal_ws/build/jackal_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_msgs -- -j32 -l32

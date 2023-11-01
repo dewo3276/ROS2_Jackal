@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (jackal_robot) JobQueued: {'identifier': 'jackal_robot', 'dependencies': OrderedDict([('jackal_description', '/home/arpg/jackal_ws/install/jackal_description'), ('jackal_msgs', '/home/arpg/jackal_ws/install/jackal_msgs'), ('micro_ros_msgs', '/home/arpg/jackal_ws/install/micro_ros_msgs'), ('wireless_msgs', '/home/arpg/jackal_ws/install/wireless_msgs'), ('jackal_control', '/home/arpg/jackal_ws/install/jackal_control'), ('micro_ros_agent', '/home/arpg/jackal_ws/install/micro_ros_agent'), ('wireless_watcher', '/home/arpg/jackal_ws/install/wireless_watcher'), ('jackal_robot', '/home/arpg/jackal_ws/install/jackal_robot')])}
+[0.000481] (jackal_robot) JobStarted: {'identifier': 'jackal_robot'}
+[0.042885] (jackal_robot) JobEnded: {'identifier': 'jackal_robot', 'rc': 0}
+[0.043212] (-) EventReactorShutdown: {}

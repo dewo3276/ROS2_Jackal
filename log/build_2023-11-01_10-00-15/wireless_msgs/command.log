@@ -1,0 +1,1 @@
+Invoking command in '/home/arpg/jackal_ws/build/wireless_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/wireless/wireless_msgs -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/wireless_msgs

@@ -1,0 +1,23 @@
+[0.364s] Invoking command in '/home/arpg/jackal_ws/src/wireless/wireless_watcher': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/build/wireless_watcher/prefix_override:/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/wireless_watcher build --build-base /home/arpg/jackal_ws/build/wireless_watcher/build install --record /home/arpg/jackal_ws/build/wireless_watcher/install.log --single-version-externally-managed
+[0.454s] running egg_info
+[0.454s] writing ../../../build/wireless_watcher/wireless_watcher.egg-info/PKG-INFO
+[0.454s] writing dependency_links to ../../../build/wireless_watcher/wireless_watcher.egg-info/dependency_links.txt
+[0.454s] writing entry points to ../../../build/wireless_watcher/wireless_watcher.egg-info/entry_points.txt
+[0.454s] writing requirements to ../../../build/wireless_watcher/wireless_watcher.egg-info/requires.txt
+[0.454s] writing top-level names to ../../../build/wireless_watcher/wireless_watcher.egg-info/top_level.txt
+[0.455s] reading manifest file '../../../build/wireless_watcher/wireless_watcher.egg-info/SOURCES.txt'
+[0.455s] writing manifest file '../../../build/wireless_watcher/wireless_watcher.egg-info/SOURCES.txt'
+[0.455s] running build
+[0.455s] running build_py
+[0.455s] running install
+[0.455s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.455s]   warnings.warn(
+[0.456s] running install_lib
+[0.456s] running install_data
+[0.456s] running install_egg_info
+[0.457s] removing '/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages/wireless_watcher-1.0.1-py3.10.egg-info' (and everything under it)
+[0.457s] Copying ../../../build/wireless_watcher/wireless_watcher.egg-info to /home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages/wireless_watcher-1.0.1-py3.10.egg-info
+[0.457s] running install_scripts
+[0.466s] Installing wireless_watcher script to /home/arpg/jackal_ws/install/wireless_watcher/lib/wireless_watcher
+[0.466s] writing list of installed files to '/home/arpg/jackal_ws/build/wireless_watcher/install.log'
+[0.474s] Invoked command in '/home/arpg/jackal_ws/src/wireless/wireless_watcher' returned '0': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/build/wireless_watcher/prefix_override:/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/wireless_watcher build --build-base /home/arpg/jackal_ws/build/wireless_watcher/build install --record /home/arpg/jackal_ws/build/wireless_watcher/install.log --single-version-externally-managed

@@ -1,0 +1,840 @@
+[0.342s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.342s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1df25dd750>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1df25dc280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1df25dc280>>)
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.359s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.360s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arpg/jackal_ws'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['ignore', 'ignore_ament_install']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ignore'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ignore_ament_install'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['colcon_pkg']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'colcon_pkg'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_control) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_control' with type 'ros.ament_cmake' and name 'jackal_control'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_description) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_description' with type 'ros.ament_cmake' and name 'jackal_description'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extensions ['ros']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_msgs) by extension 'ros'
+[0.367s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_msgs' with type 'ros.ament_cmake' and name 'jackal_msgs'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal/jackal_navigation) by extension 'ros'
+[0.368s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal/jackal_navigation' with type 'ros.ament_cmake' and name 'jackal_navigation'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/jackal_robot) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/jackal_robot' with type 'ros.ament_cmake' and name 'jackal_robot'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.369s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_msgs) by extension 'ros'
+[0.370s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.371s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'python'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extensions ['python_setup_py']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_msgs) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wireless/wireless_msgs' with type 'ros.ament_cmake' and name 'wireless_msgs'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/wireless/wireless_watcher) by extension 'ros'
+[0.372s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wireless/wireless_watcher' with type 'ros.ament_python' and name 'wireless_watcher'
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.405s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/arpg/jackal_ws/install
+[0.420s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/humble
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_target' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.463s] Level 5:colcon.colcon_core.verb:set package 'jackal_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.463s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/jackal_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/jackal_description', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/jackal/jackal_description', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'jackal_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/jackal_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/jackal_msgs', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/jackal/jackal_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_target' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.473s] Level 5:colcon.colcon_core.verb:set package 'jackal_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.473s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/jackal_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/jackal_navigation', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/jackal/jackal_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.478s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'cmake_target' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.488s] Level 5:colcon.colcon_core.verb:set package 'wireless_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.488s] DEBUG:colcon.colcon_core.verb:Building package 'wireless_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/wireless_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/wireless_msgs', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/wireless/wireless_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_target' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.493s] Level 5:colcon.colcon_core.verb:set package 'jackal_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.493s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/jackal_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/jackal_control', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/jackal/jackal_control', 'symlink_install': False, 'test_result_base': None}
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.498s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.498s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'wireless_watcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'wireless_watcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/wireless_watcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/wireless_watcher', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/wireless/wireless_watcher', 'symlink_install': False, 'test_result_base': None}
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'cmake_target' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.508s] Level 5:colcon.colcon_core.verb:set package 'jackal_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.508s] DEBUG:colcon.colcon_core.verb:Building package 'jackal_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arpg/jackal_ws/build/jackal_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arpg/jackal_ws/install/jackal_robot', 'merge_install': False, 'path': '/home/arpg/jackal_ws/src/jackal_robot', 'symlink_install': False, 'test_result_base': None}
+[0.513s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.518s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/jackal/jackal_description' with build type 'ament_cmake'
+[0.518s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/jackal/jackal_description'
+[0.524s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.541s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/micro_ros_msgs' with build type 'ament_cmake'
+[0.541s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/micro_ros_msgs'
+[0.547s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.562s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/wireless/wireless_msgs' with build type 'ament_cmake'
+[0.562s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/wireless/wireless_msgs'
+[0.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.584s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/jackal/jackal_msgs' with build type 'ament_cmake'
+[0.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/jackal/jackal_msgs'
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.606s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/jackal/jackal_navigation' with build type 'ament_cmake'
+[0.606s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/jackal/jackal_navigation'
+[0.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.629s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[0.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/micro_ros_setup'
+[0.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/jackal/jackal_description -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_description
+[0.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/micro_ros_msgs
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/wireless_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/wireless/wireless_msgs -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/wireless_msgs
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/jackal/jackal_msgs -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_msgs
+[0.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/jackal/jackal_navigation -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_navigation
+[0.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/micro_ros_setup
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/micro_ros_setup
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/micro_ros_setup -- -j32 -l32
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/jackal/jackal_description -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_description
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_description -- -j32 -l32
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/micro_ros_setup -- -j32 -l32
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_description -- -j32 -l32
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/micro_ros_setup
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_description
+[1.008s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/micro_ros_setup
+[1.023s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup' for CMake module files
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup' for CMake config files
+[1.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/lib'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/bin'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[1.030s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/bin'
+[1.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.036s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_description)
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_description
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description' for CMake module files
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description' for CMake config files
+[1.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_description', 'cmake_prefix_path')
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.ps1'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.sh'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description/bin'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description/lib/pkgconfig/jackal_description.pc'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description/lib/python3.10/site-packages'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description/bin'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.sh'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.bash'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.zsh'
+[1.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_description/share/colcon-core/packages/jackal_description)
+[1.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup' for CMake module files
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup' for CMake config files
+[1.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[1.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/lib'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/bin'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/lib/python3.10/site-packages'
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_setup/bin'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[1.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[1.080s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[1.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_description)
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description' for CMake module files
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description' for CMake config files
+[1.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_description', 'cmake_prefix_path')
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.ps1'
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/hook/cmake_prefix_path.sh'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description/bin'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description/lib/pkgconfig/jackal_description.pc'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description/lib/python3.10/site-packages'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_description/bin'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.sh'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.bash'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.zsh'
+[1.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_description/share/colcon-core/packages/jackal_description)
+[1.108s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/jackal/jackal_control' with build type 'ament_cmake'
+[1.108s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/jackal/jackal_control'
+[1.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_control': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/jackal/jackal_control -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_control
+[1.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/micro_ros_msgs
+[1.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/micro_ros_msgs -- -j32 -l32
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_control' returned '0': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/jackal/jackal_control -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_control
+[1.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_control': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_control -- -j32 -l32
+[1.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_control' returned '0': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_control -- -j32 -l32
+[1.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/wireless_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/wireless/wireless_msgs -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/wireless_msgs
+[1.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/wireless_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/wireless_msgs -- -j32 -l32
+[1.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_control': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_control
+[1.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_control)
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_control' returned '0': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_control
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control' for CMake module files
+[1.454s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control' for CMake config files
+[1.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_control', 'cmake_prefix_path')
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.dsv'
+[1.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.sh'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control/bin'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control/lib/pkgconfig/jackal_control.pc'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control/lib/python3.10/site-packages'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control/bin'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.sh'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.bash'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.zsh'
+[1.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_control/share/colcon-core/packages/jackal_control)
+[1.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/jackal/jackal_msgs -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_msgs
+[1.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_msgs -- -j32 -l32
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_control)
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control' for CMake module files
+[1.515s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control' for CMake config files
+[1.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_control', 'cmake_prefix_path')
+[1.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.ps1'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/hook/cmake_prefix_path.sh'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control/bin'
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control/lib/pkgconfig/jackal_control.pc'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control/lib/python3.10/site-packages'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_control/bin'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.dsv'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.sh'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.bash'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_control/share/jackal_control/package.zsh'
+[1.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_control/share/colcon-core/packages/jackal_control)
+[2.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/micro_ros_msgs -- -j32 -l32
+[2.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/micro_ros_msgs
+[2.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake /home/arpg/jackal_ws/src/jackal/jackal_navigation -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_navigation
+[2.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_navigation -- -j32 -l32
+[2.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_navigation -- -j32 -l32
+[2.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[2.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/micro_ros_msgs
+[2.844s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs' for CMake module files
+[2.845s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs' for CMake config files
+[2.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/lib'
+[2.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[2.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/bin'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[2.857s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/bin'
+[2.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[2.863s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[2.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[2.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[2.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[2.864s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[2.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_navigation
+[2.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_navigation)
+[2.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_navigation
+[2.878s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation' for CMake module files
+[2.878s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation' for CMake config files
+[2.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_navigation', 'cmake_prefix_path')
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.dsv'
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.sh'
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation/bin'
+[2.884s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation/lib/pkgconfig/jackal_navigation.pc'
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation/lib/python3.10/site-packages'
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation/bin'
+[2.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.ps1'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.dsv'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.sh'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.bash'
+[2.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.zsh'
+[2.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_navigation/share/colcon-core/packages/jackal_navigation)
+[2.908s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs' for CMake module files
+[2.914s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs' for CMake config files
+[2.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/lib'
+[2.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[2.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/bin'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/lib/python3.10/site-packages'
+[2.930s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_msgs/bin'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[2.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[2.937s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[2.937s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/micro-ROS-Agent/micro_ros_agent'
+[2.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_navigation)
+[2.971s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation' for CMake module files
+[2.972s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation' for CMake config files
+[2.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_navigation', 'cmake_prefix_path')
+[2.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.ps1'
+[2.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.dsv'
+[2.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/hook/cmake_prefix_path.sh'
+[2.978s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation/bin'
+[2.978s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation/lib/pkgconfig/jackal_navigation.pc'
+[2.978s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation/lib/python3.10/site-packages'
+[2.978s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_navigation/bin'
+[2.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.ps1'
+[2.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.sh'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.bash'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.zsh'
+[2.984s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_navigation/share/colcon-core/packages/jackal_navigation)
+[2.985s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/wireless_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/wireless_msgs -- -j32 -l32
+[2.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/arpg/jackal_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/micro_ros_agent
+[3.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/wireless_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/wireless_msgs
+[3.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wireless_msgs)
+[3.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/wireless_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/wireless_msgs
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs' for CMake module files
+[3.067s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs' for CMake config files
+[3.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('wireless_msgs', 'cmake_prefix_path')
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/cmake_prefix_path.ps1'
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/cmake_prefix_path.dsv'
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/cmake_prefix_path.sh'
+[3.073s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/lib'
+[3.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('wireless_msgs', 'ld_library_path_lib')
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/ld_library_path_lib.ps1'
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/ld_library_path_lib.dsv'
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/ld_library_path_lib.sh'
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/bin'
+[3.079s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/lib/pkgconfig/wireless_msgs.pc'
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/lib/python3.10/site-packages'
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/bin'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.ps1'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.dsv'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.sh'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.bash'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.zsh'
+[3.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/wireless_msgs/share/colcon-core/packages/wireless_msgs)
+[3.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wireless_msgs)
+[3.140s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs' for CMake module files
+[3.140s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs' for CMake config files
+[3.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('wireless_msgs', 'cmake_prefix_path')
+[3.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/cmake_prefix_path.ps1'
+[3.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/cmake_prefix_path.dsv'
+[3.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/cmake_prefix_path.sh'
+[3.146s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/lib'
+[3.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('wireless_msgs', 'ld_library_path_lib')
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/ld_library_path_lib.ps1'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/ld_library_path_lib.dsv'
+[3.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/hook/ld_library_path_lib.sh'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/bin'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/lib/pkgconfig/wireless_msgs.pc'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/lib/python3.10/site-packages'
+[3.152s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_msgs/bin'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.ps1'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.dsv'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.sh'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.bash'
+[3.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_msgs/share/wireless_msgs/package.zsh'
+[3.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/wireless_msgs/share/colcon-core/packages/wireless_msgs)
+[3.159s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/arpg/jackal_ws/src/wireless/wireless_watcher' with build type 'ament_python'
+[3.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('wireless_watcher', 'ament_prefix_path')
+[3.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/hook/ament_prefix_path.ps1'
+[3.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/hook/ament_prefix_path.dsv'
+[3.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/hook/ament_prefix_path.sh'
+[3.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.188s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/arpg/jackal_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/micro_ros_agent
+[3.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arpg/jackal_ws/build/micro_ros_agent -- -j32 -l32
+[3.298s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/arpg/jackal_ws/src/wireless/wireless_watcher'
+[3.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/src/wireless/wireless_watcher': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/build/wireless_watcher/prefix_override:/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/wireless_watcher build --build-base /home/arpg/jackal_ws/build/wireless_watcher/build install --record /home/arpg/jackal_ws/build/wireless_watcher/install.log --single-version-externally-managed
+[3.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/src/wireless/wireless_watcher' returned '0': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/build/wireless_watcher/prefix_override:/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/wireless_watcher build --build-base /home/arpg/jackal_ws/build/wireless_watcher/build install --record /home/arpg/jackal_ws/build/wireless_watcher/install.log --single-version-externally-managed
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_watcher' for CMake module files
+[3.598s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_watcher' for CMake config files
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_watcher/lib'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_watcher/bin'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_watcher/lib/pkgconfig/wireless_watcher.pc'
+[3.599s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages'
+[3.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('wireless_watcher', 'pythonpath')
+[3.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/hook/pythonpath.ps1'
+[3.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/hook/pythonpath.dsv'
+[3.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/hook/pythonpath.sh'
+[3.605s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/wireless_watcher/bin'
+[3.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wireless_watcher)
+[3.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/package.ps1'
+[3.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/package.dsv'
+[3.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/package.sh'
+[3.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/package.bash'
+[3.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/wireless_watcher/share/wireless_watcher/package.zsh'
+[3.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/wireless_watcher/share/colcon-core/packages/wireless_watcher)
+[3.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_msgs -- -j32 -l32
+[3.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_msgs
+[3.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_msgs)
+[3.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_msgs
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs' for CMake module files
+[3.919s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs' for CMake config files
+[3.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'cmake_prefix_path')
+[3.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.ps1'
+[3.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.dsv'
+[3.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.sh'
+[3.925s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/lib'
+[3.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'ld_library_path_lib')
+[3.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.ps1'
+[3.931s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.dsv'
+[3.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.sh'
+[3.931s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/bin'
+[3.931s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/lib/pkgconfig/jackal_msgs.pc'
+[3.931s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/lib/python3.10/site-packages'
+[3.931s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/bin'
+[3.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.ps1'
+[3.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.dsv'
+[3.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.sh'
+[3.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.bash'
+[3.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.zsh'
+[3.937s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_msgs/share/colcon-core/packages/jackal_msgs)
+[4.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_msgs)
+[4.009s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs' for CMake module files
+[4.009s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs' for CMake config files
+[4.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'cmake_prefix_path')
+[4.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.ps1'
+[4.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.dsv'
+[4.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/cmake_prefix_path.sh'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/lib'
+[4.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_msgs', 'ld_library_path_lib')
+[4.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.ps1'
+[4.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.dsv'
+[4.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/hook/ld_library_path_lib.sh'
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/bin'
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/lib/pkgconfig/jackal_msgs.pc'
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/lib/python3.10/site-packages'
+[4.021s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_msgs/bin'
+[4.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.ps1'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.dsv'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.sh'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.bash'
+[4.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.zsh'
+[4.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_msgs/share/colcon-core/packages/jackal_msgs)
+[14.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/arpg/jackal_ws/build/micro_ros_agent -- -j32 -l32
+[14.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arpg/jackal_ws/build/micro_ros_agent
+[14.702s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[14.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/arpg/jackal_ws/build/micro_ros_agent
+[14.709s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent' for CMake module files
+[14.709s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent' for CMake config files
+[14.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[14.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[14.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[14.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[14.718s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/lib'
+[14.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[14.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[14.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[14.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[14.724s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/bin'
+[14.724s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[14.724s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[14.724s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/bin'
+[14.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[14.734s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[14.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[14.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[14.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[14.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[14.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[14.759s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent' for CMake module files
+[14.759s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent' for CMake config files
+[14.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[14.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[14.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[14.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[14.765s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/lib'
+[14.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[14.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[14.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[14.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[14.771s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/bin'
+[14.771s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[14.771s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/lib/python3.10/site-packages'
+[14.771s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/micro_ros_agent/bin'
+[14.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[14.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[14.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[14.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[14.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[14.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[14.777s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arpg/jackal_ws/src/jackal_robot' with build type 'ament_cmake'
+[14.777s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arpg/jackal_ws/src/jackal_robot'
+[14.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_robot': AMENT_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_watcher:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:/home/arpg/jackal_ws/install/jackal_robot/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/wireless_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/arpg/jackal_ws/src/jackal_robot -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_robot
+[16.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_robot' returned '0': AMENT_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_watcher:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:/home/arpg/jackal_ws/install/jackal_robot/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/wireless_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/arpg/jackal_ws/src/jackal_robot -DCMAKE_INSTALL_PREFIX=/home/arpg/jackal_ws/install/jackal_robot
+[16.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_robot': AMENT_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_watcher:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:/home/arpg/jackal_ws/install/jackal_robot/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/wireless_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_robot -- -j32 -l32
+[20.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_robot' returned '0': AMENT_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_watcher:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:/home/arpg/jackal_ws/install/jackal_robot/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/wireless_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_robot -- -j32 -l32
+[20.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arpg/jackal_ws/build/jackal_robot': AMENT_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_watcher:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:/home/arpg/jackal_ws/install/jackal_robot/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/wireless_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_robot
+[20.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_robot)
+[20.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arpg/jackal_ws/build/jackal_robot' returned '0': AMENT_PREFIX_PATH=/home/arpg/jackal_ws/install/wireless_watcher:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/jackal_description:/opt/ros/humble CMAKE_PREFIX_PATH=/home/arpg/jackal_ws/install/micro_ros_agent:/home/arpg/jackal_ws/install/jackal_control:/home/arpg/jackal_ws/install/wireless_msgs:/home/arpg/jackal_ws/install/micro_ros_msgs:/home/arpg/jackal_ws/install/jackal_msgs:/home/arpg/jackal_ws/install/jackal_description:/home/arpg/jackal_ws/install/jackal_robot:/home/arpg/jackal_ws/install/micro_ros_setup:/home/arpg/jackal_ws/install/jackal_navigation:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble LD_LIBRARY_PATH=/home/arpg/jackal_ws/install/micro_ros_agent/lib:/home/arpg/jackal_ws/install/wireless_msgs/lib:/home/arpg/jackal_ws/install/micro_ros_msgs/lib:/home/arpg/jackal_ws/install/jackal_msgs/lib:/home/arpg/jackal_ws/install/jackal_robot/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/arpg/jackal_ws/install/wireless_watcher/lib/python3.10/site-packages:/home/arpg/jackal_ws/install/jackal_robot/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/wireless_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_robot
+[20.186s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot' for CMake module files
+[20.186s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot' for CMake config files
+[20.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_robot', 'cmake_prefix_path')
+[20.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/cmake_prefix_path.ps1'
+[20.192s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/cmake_prefix_path.dsv'
+[20.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/cmake_prefix_path.sh'
+[20.192s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/lib'
+[20.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_robot', 'ld_library_path_lib')
+[20.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/ld_library_path_lib.ps1'
+[20.197s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/ld_library_path_lib.dsv'
+[20.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/ld_library_path_lib.sh'
+[20.197s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/bin'
+[20.198s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/lib/pkgconfig/jackal_robot.pc'
+[20.198s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/lib/python3.10/site-packages'
+[20.198s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/bin'
+[20.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.ps1'
+[20.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.dsv'
+[20.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.sh'
+[20.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.bash'
+[20.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.zsh'
+[20.204s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_robot/share/colcon-core/packages/jackal_robot)
+[20.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jackal_robot)
+[20.230s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot' for CMake module files
+[20.230s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot' for CMake config files
+[20.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_robot', 'cmake_prefix_path')
+[20.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/cmake_prefix_path.ps1'
+[20.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/cmake_prefix_path.dsv'
+[20.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/cmake_prefix_path.sh'
+[20.236s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/lib'
+[20.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('jackal_robot', 'ld_library_path_lib')
+[20.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/ld_library_path_lib.ps1'
+[20.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/ld_library_path_lib.dsv'
+[20.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/hook/ld_library_path_lib.sh'
+[20.241s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/bin'
+[20.241s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/lib/pkgconfig/jackal_robot.pc'
+[20.241s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/lib/python3.10/site-packages'
+[20.241s] Level 1:colcon.colcon_core.environment:checking '/home/arpg/jackal_ws/install/jackal_robot/bin'
+[20.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.ps1'
+[20.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.dsv'
+[20.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.sh'
+[20.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.bash'
+[20.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/arpg/jackal_ws/install/jackal_robot/share/jackal_robot/package.zsh'
+[20.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arpg/jackal_ws/install/jackal_robot/share/colcon-core/packages/jackal_robot)
+[20.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.248s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.255s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.256s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[20.256s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arpg/jackal_ws/install/local_setup.ps1'
+[20.262s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arpg/jackal_ws/install/_local_setup_util_ps1.py'
+[20.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arpg/jackal_ws/install/setup.ps1'
+[20.267s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arpg/jackal_ws/install/local_setup.sh'
+[20.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arpg/jackal_ws/install/_local_setup_util_sh.py'
+[20.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arpg/jackal_ws/install/setup.sh'
+[20.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arpg/jackal_ws/install/local_setup.bash'
+[20.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arpg/jackal_ws/install/setup.bash'
+[20.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arpg/jackal_ws/install/local_setup.zsh'
+[20.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arpg/jackal_ws/install/setup.zsh'

@@ -1,0 +1,369 @@
+[0.070s] Invoking command in '/home/arpg/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_msgs -- -j32 -l32
+[0.080s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.146s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[0.158s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.158s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.161s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.198s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.333s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.567s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.578s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.578s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.578s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.592s] -- Configuring done
+[0.609s] -- Generating done
+[0.610s] -- Build files have been written to: /home/arpg/jackal_ws/build/jackal_msgs
+[0.623s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_generator_c[0m
+[0.628s] [  1%] Built target jackal_msgs__cpp
+[0.630s] [  2%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_c.dir/rosidl_generator_c/jackal_msgs/msg/detail/drive__functions.c.o[0m
+[0.631s] [  3%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_c.dir/rosidl_generator_c/jackal_msgs/msg/detail/status__functions.c.o[0m
+[0.631s] [  5%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_c.dir/rosidl_generator_c/jackal_msgs/srv/detail/set_domain_id__functions.c.o[0m
+[0.631s] [  6%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_c.dir/rosidl_generator_c/jackal_msgs/msg/detail/drive_feedback__functions.c.o[0m
+[0.632s] [  7%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_c.dir/rosidl_generator_c/jackal_msgs/msg/detail/feedback__functions.c.o[0m
+[0.632s] [  8%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_c.dir/rosidl_generator_c/jackal_msgs/msg/detail/power__functions.c.o[0m
+[0.632s] [ 10%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_c.dir/rosidl_generator_c/jackal_msgs/msg/detail/stop_status__functions.c.o[0m
+[0.635s] [ 10%] Built target ament_cmake_python_copy_jackal_msgs
+[0.636s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.636s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.637s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_cpp[0m
+[0.648s] [ 21%] Built target jackal_msgs__rosidl_typesupport_introspection_cpp
+[0.649s] [ 22%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jackal_msgs/msg/detail/dds_fastrtps/drive__type_support.cpp.o[0m
+[0.650s] [ 29%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jackal_msgs/msg/detail/dds_fastrtps/power__type_support.cpp.o[0m
+[0.650s] [ 30%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jackal_msgs/msg/detail/dds_fastrtps/feedback__type_support.cpp.o[0m
+[0.650s] [ 34%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jackal_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[0.650s] [ 31%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jackal_msgs/msg/detail/dds_fastrtps/stop_status__type_support.cpp.o[0m
+[0.650s] [ 40%] Built target jackal_msgs__rosidl_typesupport_cpp
+[0.650s] [ 35%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jackal_msgs/msg/detail/dds_fastrtps/drive_feedback__type_support.cpp.o[0m
+[0.651s] [ 41%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jackal_msgs/srv/detail/dds_fastrtps/set_domain_id__type_support.cpp.o[0m
+[0.684s] [ 43%] [32m[1mLinking C shared library libjackal_msgs__rosidl_generator_c.so[0m
+[0.703s] [ 44%] Built target jackal_msgs__rosidl_generator_c
+[0.711s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_introspection_c[0m
+[0.712s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_c[0m
+[0.712s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.734s] [ 45%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jackal_msgs/msg/detail/drive__type_support_c.cpp.o[0m
+[0.734s] [ 46%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jackal_msgs/msg/detail/drive_feedback__type_support_c.cpp.o[0m
+[0.739s] [ 50%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jackal_msgs/msg/drive_feedback__type_support.cpp.o[0m
+[0.739s] [ 50%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jackal_msgs/msg/detail/feedback__type_support_c.cpp.o[0m
+[0.739s] [ 50%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jackal_msgs/msg/feedback__type_support.cpp.o[0m
+[0.740s] [ 51%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jackal_msgs/msg/power__type_support.cpp.o[0m
+[0.743s] [ 54%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jackal_msgs/msg/detail/drive__type_support.c.o[0m
+[0.744s] [ 54%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jackal_msgs/msg/detail/feedback__type_support.c.o[0m
+[0.745s] [ 55%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jackal_msgs/msg/detail/drive_feedback__type_support.c.o[0m
+[0.745s] [ 56%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jackal_msgs/msg/detail/status__type_support.c.o[0m
+[0.746s] [ 58%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jackal_msgs/msg/detail/power__type_support.c.o[0m
+[0.750s] [ 59%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jackal_msgs/srv/detail/set_domain_id__type_support.c.o[0m
+[0.751s] [ 60%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jackal_msgs/msg/detail/power__type_support_c.cpp.o[0m
+[0.752s] [ 62%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jackal_msgs/msg/detail/stop_status__type_support.c.o[0m
+[0.756s] [ 63%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jackal_msgs/msg/status__type_support.cpp.o[0m
+[0.757s] [ 65%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jackal_msgs/srv/detail/set_domain_id__type_support_c.cpp.o[0m
+[0.758s] [ 65%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jackal_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[0.771s] [ 67%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jackal_msgs/msg/drive__type_support.cpp.o[0m
+[0.771s] [ 68%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jackal_msgs/msg/stop_status__type_support.cpp.o[0m
+[0.778s] [ 69%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jackal_msgs/msg/detail/stop_status__type_support_c.cpp.o[0m
+[0.797s] [ 70%] [32mBuilding CXX object CMakeFiles/jackal_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jackal_msgs/srv/set_domain_id__type_support.cpp.o[0m
+[0.814s] [ 72%] [32m[1mLinking C shared library libjackal_msgs__rosidl_typesupport_introspection_c.so[0m
+[0.816s] running egg_info
+[0.817s] writing jackal_msgs.egg-info/PKG-INFO
+[0.817s] writing dependency_links to jackal_msgs.egg-info/dependency_links.txt
+[0.817s] writing top-level names to jackal_msgs.egg-info/top_level.txt
+[0.819s] reading manifest file 'jackal_msgs.egg-info/SOURCES.txt'
+[0.819s] writing manifest file 'jackal_msgs.egg-info/SOURCES.txt'
+[0.844s] [ 73%] Built target ament_cmake_python_build_jackal_msgs_egg
+[0.844s] [ 73%] Built target jackal_msgs__rosidl_typesupport_introspection_c
+[0.844s] [ 74%] [32m[1mLinking CXX shared library libjackal_msgs__rosidl_typesupport_c.so[0m
+[0.881s] [ 75%] Built target jackal_msgs__rosidl_typesupport_c
+[1.003s] [ 77%] [32m[1mLinking CXX shared library libjackal_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.039s] [ 78%] Built target jackal_msgs__rosidl_typesupport_fastrtps_cpp
+[1.056s] [ 79%] [32m[1mLinking CXX shared library libjackal_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.089s] [ 81%] Built target jackal_msgs__rosidl_typesupport_fastrtps_c
+[1.101s] [ 81%] Built target jackal_msgs
+[1.110s] [ 82%] Built target jackal_msgs__py
+[1.116s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_generator_py[0m
+[1.125s] [ 86%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_py.dir/rosidl_generator_py/jackal_msgs/msg/_drive_feedback_s.c.o[0m
+[1.125s] [ 86%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_py.dir/rosidl_generator_py/jackal_msgs/msg/_feedback_s.c.o[0m
+[1.125s] [ 87%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_py.dir/rosidl_generator_py/jackal_msgs/msg/_drive_s.c.o[0m
+[1.125s] [ 87%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_py.dir/rosidl_generator_py/jackal_msgs/msg/_power_s.c.o[0m
+[1.127s] [ 88%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_py.dir/rosidl_generator_py/jackal_msgs/srv/_set_domain_id_s.c.o[0m
+[1.127s] [ 91%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_py.dir/rosidl_generator_py/jackal_msgs/msg/_status_s.c.o[0m
+[1.127s] [ 91%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_generator_py.dir/rosidl_generator_py/jackal_msgs/msg/_stop_status_s.c.o[0m
+[1.195s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/jackal_msgs/libjackal_msgs__rosidl_generator_py.so[0m
+[1.216s] [ 92%] Built target jackal_msgs__rosidl_generator_py
+[1.221s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.222s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_c__pyext[0m
+[1.222s] [35m[1mConsolidate compiler generated dependencies of target jackal_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.228s] [ 94%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/jackal_msgs/_jackal_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.228s] [ 94%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/jackal_msgs/_jackal_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.230s] [ 96%] [32mBuilding C object CMakeFiles/jackal_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/jackal_msgs/_jackal_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.279s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/jackal_msgs/jackal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.279s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/jackal_msgs/jackal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.280s] [100%] [32m[1mLinking C shared library rosidl_generator_py/jackal_msgs/jackal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.296s] [100%] Built target jackal_msgs__rosidl_typesupport_c__pyext
+[1.296s] [100%] Built target jackal_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.297s] [100%] Built target jackal_msgs__rosidl_typesupport_introspection_c__pyext
+[1.302s] Invoked command in '/home/arpg/jackal_ws/build/jackal_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_msgs -- -j32 -l32
+[1.367s] Invoking command in '/home/arpg/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_msgs
+[1.371s] -- Install configuration: ""
+[1.371s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/ament_index/resource_index/rosidl_interfaces/jackal_msgs
+[1.371s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs
+[1.371s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv
+[1.371s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__functions.c
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__functions.h
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__struct.h
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__type_support.h
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/set_domain_id.h
+[1.372s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/drive.h
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/status.h
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/stop_status.h
+[1.372s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__functions.c
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__type_support.h
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__functions.h
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__struct.h
+[1.372s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__functions.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__struct.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__functions.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__functions.c
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__type_support.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__struct.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__functions.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__struct.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__functions.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__functions.c
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__functions.c
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__type_support.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__struct.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__functions.c
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__type_support.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__struct.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__functions.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__functions.c
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__type_support.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__type_support.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/power.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/feedback.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/drive_feedback.h
+[1.373s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/environment/library_path.sh
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/environment/library_path.dsv
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_generator_c.so
+[1.373s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_generator_c.so" to ""
+[1.373s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs
+[1.373s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv
+[1.373s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail
+[1.373s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__rosidl_typesupport_fastrtps_c.h
+[1.373s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg
+[1.373s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_c.h
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__rosidl_typesupport_fastrtps_c.h
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_c.h
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_c.h
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[1.374s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_fastrtps_c.so
+[1.374s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.374s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs
+[1.374s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv
+[1.374s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__traits.hpp
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__builder.hpp
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__struct.hpp
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/set_domain_id.hpp
+[1.374s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg
+[1.374s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__builder.hpp
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__builder.hpp
+[1.374s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__traits.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__struct.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__struct.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__builder.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__traits.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__traits.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__traits.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__struct.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__builder.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__traits.hpp
+[1.375s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__builder.hpp
+[1.376s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__struct.hpp
+[1.376s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__struct.hpp
+[1.376s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__struct.hpp
+[1.376s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__traits.hpp
+[1.376s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__builder.hpp
+[1.376s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/stop_status.hpp
+[1.376s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/power.hpp
+[1.377s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/drive_feedback.hpp
+[1.377s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/drive.hpp
+[1.377s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/feedback.hpp
+[1.377s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/status.hpp
+[1.377s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs
+[1.377s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv
+[1.377s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail
+[1.377s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__rosidl_typesupport_fastrtps_cpp.hpp
+[1.377s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/dds_fastrtps
+[1.377s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg
+[1.377s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail
+[1.377s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[1.378s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.378s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[1.378s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__rosidl_typesupport_fastrtps_cpp.hpp
+[1.378s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.378s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__rosidl_typesupport_fastrtps_cpp.hpp
+[1.378s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/dds_fastrtps
+[1.378s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.378s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.378s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.378s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs
+[1.378s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv
+[1.378s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail
+[1.378s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__type_support.c
+[1.378s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__rosidl_typesupport_introspection_c.h
+[1.379s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg
+[1.379s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.379s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__rosidl_typesupport_introspection_c.h
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__rosidl_typesupport_introspection_c.h
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__type_support.c
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__type_support.c
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__type_support.c
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__type_support.c
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__type_support.c
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_c.h
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__type_support.c
+[1.379s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_c.h
+[1.380s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_introspection_c.so
+[1.380s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.380s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_c.so
+[1.380s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_c.so" to ""
+[1.380s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs
+[1.380s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv
+[1.380s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail
+[1.380s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__rosidl_typesupport_introspection_cpp.hpp
+[1.380s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/srv/detail/set_domain_id__type_support.cpp
+[1.380s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg
+[1.380s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail
+[1.380s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__type_support.cpp
+[1.381s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__type_support.cpp
+[1.381s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[1.381s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__type_support.cpp
+[1.381s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/stop_status__rosidl_typesupport_introspection_cpp.hpp
+[1.381s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__type_support.cpp
+[1.382s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive_feedback__rosidl_typesupport_introspection_cpp.hpp
+[1.382s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/drive__rosidl_typesupport_introspection_cpp.hpp
+[1.383s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__rosidl_typesupport_introspection_cpp.hpp
+[1.383s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/power__type_support.cpp
+[1.384s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[1.384s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/include/jackal_msgs/jackal_msgs/msg/detail/feedback__type_support.cpp
+[1.384s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_introspection_cpp.so
+[1.385s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.385s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_cpp.so
+[1.385s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_typesupport_cpp.so" to ""
+[1.385s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/environment/pythonpath.sh
+[1.385s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/environment/pythonpath.dsv
+[1.385s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs-1.0.4-py3.10.egg-info
+[1.385s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs-1.0.4-py3.10.egg-info/PKG-INFO
+[1.385s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs-1.0.4-py3.10.egg-info/SOURCES.txt
+[1.385s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs-1.0.4-py3.10.egg-info/top_level.txt
+[1.385s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs-1.0.4-py3.10.egg-info/dependency_links.txt
+[1.385s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs
+[1.385s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.385s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/_jackal_msgs_s.ep.rosidl_typesupport_c.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.386s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/srv
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/srv/_set_domain_id.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/srv/_set_domain_id_s.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/srv/__init__.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/__init__.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/libjackal_msgs__rosidl_generator_py.so
+[1.386s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_drive_feedback_s.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_drive.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_feedback.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_status_s.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_power_s.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_drive_feedback.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_drive_s.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_power.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_stop_status.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/__init__.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_feedback_s.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_status.py
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg/_stop_status_s.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/_jackal_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.386s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/_jackal_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.399s] Listing '/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs'...
+[1.399s] Compiling '/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/__init__.py'...
+[1.399s] Listing '/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/msg'...
+[1.400s] Listing '/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/srv'...
+[1.401s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.402s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.402s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.402s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.403s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.404s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/local/lib/python3.10/dist-packages/jackal_msgs/jackal_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[1.404s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_generator_py.so
+[1.404s] -- Set runtime path of "/home/arpg/jackal_ws/install/jackal_msgs/lib/libjackal_msgs__rosidl_generator_py.so" to ""
+[1.404s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/Drive.idl
+[1.404s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/DriveFeedback.idl
+[1.405s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/Feedback.idl
+[1.405s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/Power.idl
+[1.405s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/Status.idl
+[1.405s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/StopStatus.idl
+[1.405s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/srv/SetDomainId.idl
+[1.406s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/Drive.msg
+[1.406s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/DriveFeedback.msg
+[1.406s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/Feedback.msg
+[1.406s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/Power.msg
+[1.407s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/Status.msg
+[1.407s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/msg/StopStatus.msg
+[1.407s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/srv/SetDomainId.srv
+[1.407s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/srv/SetDomainId_Request.msg
+[1.407s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/srv/SetDomainId_Response.msg
+[1.407s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/ament_index/resource_index/package_run_dependencies/jackal_msgs
+[1.407s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/ament_index/resource_index/parent_prefix_path/jackal_msgs
+[1.407s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/environment/ament_prefix_path.sh
+[1.408s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/environment/ament_prefix_path.dsv
+[1.408s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/environment/path.sh
+[1.408s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/environment/path.dsv
+[1.408s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/local_setup.bash
+[1.408s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/local_setup.sh
+[1.408s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/local_setup.zsh
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/local_setup.dsv
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.dsv
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/ament_index/resource_index/packages/jackal_msgs
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_generator_cExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_generator_cppExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgs__rosidl_typesupport_cExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgs__rosidl_typesupport_cppExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_generator_pyExport.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/export_jackal_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/rosidl_cmake-extras.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgsConfig.cmake
+[1.409s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/cmake/jackal_msgsConfig-version.cmake
+[1.409s] -- Installing: /home/arpg/jackal_ws/install/jackal_msgs/share/jackal_msgs/package.xml
+[1.473s] Invoked command in '/home/arpg/jackal_ws/build/jackal_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_msgs

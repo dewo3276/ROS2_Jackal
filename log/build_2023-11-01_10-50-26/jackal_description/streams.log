@@ -1,0 +1,10 @@
+[0.142s] Invoking command in '/home/arpg/jackal_ws/build/jackal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_description -- -j32 -l32
+[0.158s] Invoked command in '/home/arpg/jackal_ws/build/jackal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_description -- -j32 -l32
+[0.178s] Invoking command in '/home/arpg/jackal_ws/build/jackal_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_description
+[0.183s] -- Install configuration: ""
+[0.183s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_description/share/jackal_description/launch
+[0.183s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_description/share/jackal_description/meshes
+[0.183s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_description/share/jackal_description/urdf
+[0.183s] -- Up-to-date: /home/arpg/jackal_ws/install/jackal_description/share/jackal_description/urdf/accessories
+[0.184s] -- Installing: /home/arpg/jackal_ws/install/jackal_description/share/jackal_description/package.dsv
+[0.184s] Invoked command in '/home/arpg/jackal_ws/build/jackal_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arpg/jackal_ws/install/wireless_watcher:/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_description

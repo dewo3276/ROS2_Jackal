@@ -1,0 +1,21 @@
+[0.084s] Invoking command in '/home/arpg/jackal_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/micro_ros_msgs -- -j32 -l32
+[0.102s] [  2%] Built target micro_ros_msgs__cpp
+[0.102s] [ 12%] Built target micro_ros_msgs__rosidl_generator_c
+[0.106s] failed to create symbolic link '/home/arpg/jackal_ws/build/micro_ros_msgs/ament_cmake_python/micro_ros_msgs/micro_ros_msgs' because existing path cannot be removed: Is a directory
+[0.106s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs] Error 1
+[0.106s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/all] Error 2
+[0.106s] gmake[1]: *** Waiting for unfinished jobs....
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.107s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c[0m
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c[0m
+[0.116s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.116s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.117s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.117s] [ 57%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.118s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.119s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.119s] gmake: *** [Makefile:146: all] Error 2
+[0.120s] Invoked command in '/home/arpg/jackal_ws/build/micro_ros_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/micro_ros_msgs -- -j32 -l32

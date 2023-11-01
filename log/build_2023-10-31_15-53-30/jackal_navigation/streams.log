@@ -1,0 +1,27 @@
+[0.039s] Invoking command in '/home/arpg/jackal_ws/build/jackal_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_navigation -- -j32 -l32
+[0.058s] Invoked command in '/home/arpg/jackal_ws/build/jackal_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_navigation -- -j32 -l32
+[0.070s] Invoking command in '/home/arpg/jackal_ws/build/jackal_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/arpg/jackal_ws/build/jackal_navigation
+[0.073s] -- Install configuration: ""
+[0.073s] -- Execute custom install script
+[0.073s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/config/nav2.yaml
+[0.079s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/config/slam.yaml
+[0.086s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/launch/localization.launch.py
+[0.089s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/launch/nav2.launch.py
+[0.089s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/launch/slam.launch.py
+[0.090s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/maps/office.pgm
+[0.093s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/maps/office.yaml
+[0.097s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/ament_index/resource_index/package_run_dependencies/jackal_navigation
+[0.100s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/ament_index/resource_index/parent_prefix_path/jackal_navigation
+[0.103s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/environment/ament_prefix_path.sh
+[0.107s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/environment/ament_prefix_path.dsv
+[0.110s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/environment/path.sh
+[0.113s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/environment/path.dsv
+[0.116s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/local_setup.bash
+[0.119s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/local_setup.sh
+[0.122s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/local_setup.zsh
+[0.125s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/local_setup.dsv
+[0.128s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.dsv
+[0.131s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/ament_index/resource_index/packages/jackal_navigation
+[0.135s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/cmake/jackal_navigationConfig.cmake
+[0.138s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/cmake/jackal_navigationConfig-version.cmake
+[0.141s] -- Symlinking: /home/arpg/jackal_ws/install/jackal_navigation/share/jackal_navigation/package.xml

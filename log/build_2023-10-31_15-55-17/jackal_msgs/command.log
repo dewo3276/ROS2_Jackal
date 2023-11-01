@@ -1,0 +1,1 @@
+Invoking command in '/home/arpg/jackal_ws/build/jackal_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arpg/jackal_ws/build/jackal_msgs -- -j32 -l32

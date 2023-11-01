@@ -1,2 +1,1 @@
-source;share/jackal_description/environment/ament_prefix_path.sh
-source;share/jackal_description/environment/path.sh
+/home/arpg/jackal_ws/build/jackal_description/ament_cmake_environment_hooks/local_setup.dsv

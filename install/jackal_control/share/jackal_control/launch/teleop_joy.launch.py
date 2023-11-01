@@ -5,7 +5,7 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     lc = LaunchContext()
-    joy_type = EnvironmentVariable('CPR_JOY_TYPE', default_value='logitech')
+    joy_type = EnvironmentVariable('CPR_JOY_TYPE', default_value='ps4')
 
 
     filepath_config_joy = PathJoinSubstitution(
